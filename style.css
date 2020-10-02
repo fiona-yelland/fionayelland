@@ -11,7 +11,8 @@ body {
 }
 
 #about  {
-    box-sizing: border-box;
+  padding: 50px;
+  box-sizing: border-box;
   }
   
   .row {
