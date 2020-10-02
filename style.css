@@ -99,11 +99,7 @@ header a {
 }
 
 a:link {
-    color: #FE654F;
-}
-
-.link:hover {
-    color: #FE654F;
+    color: black;
 }
 
 ul.no-bullets {
