@@ -229,6 +229,7 @@ ul.no-bullets {
 
 #about {
     background-color: #FED18C;
+    padding: 50px
 }
 
 #social {
@@ -237,4 +238,5 @@ ul.no-bullets {
 
 #charity {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.xmple.com/wallpaper/white-polka-dots-hexagon-orange-3840x2160-c2-ffffff-ff7f50-l2-176-308-a-20-f-4.svg');
+
 }
