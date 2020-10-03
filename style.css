@@ -142,11 +142,35 @@ ul.no-bullets {
   }
   
   /* Create two columns that float next to eachother */
-  .column {
+  .column1 {
     float: left;
     width: 50%;
     margin-top: 6px;
     padding: 30px;
+  }
+  .column1 {
+    float: right;
+    width: 50%;
+    margin-top: 6px;
+    padding: 30px;
+  }
+
+  .column3 {
+    background-color:rgba(254, 102, 79, 0.712); 
+    margin-left: 10px; 
+    margin-right: 20px; 
+    padding: 40px; 
+    column-width: 500px;
+    float: left;
+  }
+
+  .column4 {
+    background-color:rgba(254, 102, 79, 0.712); 
+    margin-left: 10px; 
+    margin-right: 20px; 
+    padding: 40px; 
+    column-width: 300px;
+    float: right;
   }
   
   /* Clear floats after the columns */
