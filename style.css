@@ -7,6 +7,15 @@ html,body
     overflow-x: hidden; 
 }
 
+.navigationBar
+{
+  background-color: #FED18C;
+  width: 100%;
+  overflow:hidden;
+  position:fixed;
+  z-index: 1;
+}
+
 #hero {
   background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images-na.ssl-images-amazon.com/images/I/71UWUPeK2uL._AC_SL1500_.jpg');
 }
