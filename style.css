@@ -237,13 +237,14 @@ flip-card {
   margin-left: 10px; 
   margin-right: 20px; 
   padding: 40px; 
-  width: 500px;float: left;
+  width: 800px;
+  float: left;
 }
 #boxtwo {
   margin-left: 10px; 
   margin-right: 20px; 
   padding: 40px; 
-  width: 300px;
+  width: 400px;
   float: right;
 }
 #clear {
