@@ -56,20 +56,12 @@ ul {
     flex: 1;
     background-color:#fe664fb6;
     width: 40%;
+    padding: 10px;
 }  
 
 .flex-child:first-child {
     margin-right: 20px;
 } 
-
-  .boxone {
-    margin-left: 10px; 
-    margin-right: 20px; 
-    padding: 40px; 
-    width: 50%;
-    height: 50%;
-    display: inline-block;
-  }
 
 header {
     display: flex;
