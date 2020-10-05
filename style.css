@@ -51,9 +51,9 @@ ul {
     margin-left: 10px; 
     margin-right: 20px; 
     padding: 40px; 
-    width: 300px;
+    width: 50%;
     height: 200px;
-    float: left;
+    display: inline-block;
   }
 
 header {
