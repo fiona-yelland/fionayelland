@@ -7,7 +7,7 @@ html,body
     overflow-x: hidden; 
 }
 
-.navigationBar
+#navbar
 {
   background-color: #FED18C;
   width: 100%;
