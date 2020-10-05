@@ -233,4 +233,20 @@ flip-card {
 
 /* Add everything below here */
 
+#boxone {
+  margin-left: 10px; 
+  margin-right: 20px; 
+  padding: 40px; 
+  width: 500px;float: left;
+}
+#boxtwo {
+  margin-left: 10px; 
+  margin-right: 20px; 
+  padding: 40px; 
+  width: 300px;
+  float: right;
+}
+#clear {
+  clear: both;
+}
 
