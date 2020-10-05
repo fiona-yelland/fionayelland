@@ -174,19 +174,10 @@ ul.no-bullets {
       margin-top: 0;
     }
   }
-
-  .row {
-    margin: 8px -16px;
-  }
   
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
-    padding: 10px;
-  }
   
   /* Create four equal columns that floats next to each other */
-  .flip-card {
+}flip-card {
     float: left;
     width: 25%;
   }
@@ -226,6 +217,15 @@ ul.no-bullets {
     background-color: #FED18C;
   }
 
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 10px;
+  }
 
 /* Add everything below here */
 
