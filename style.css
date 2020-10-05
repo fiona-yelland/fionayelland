@@ -1,4 +1,22 @@
 
+#hero {
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images-na.ssl-images-amazon.com/images/I/71UWUPeK2uL._AC_SL1500_.jpg');
+}
+
+#about {
+  background-color: #FED18C;
+  padding: 50px
+}
+
+#social {
+  Background-color: #D6EFFF;
+}
+
+#charity {
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.xmple.com/wallpaper/white-polka-dots-hexagon-orange-3840x2160-c2-ffffff-ff7f50-l2-176-308-a-20-f-4.svg');
+
+}
+
 
 body {
     margin: 0;
@@ -211,20 +229,4 @@ ul.no-bullets {
 
 /* Add everything below here */
 
-#hero {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images-na.ssl-images-amazon.com/images/I/71UWUPeK2uL._AC_SL1500_.jpg');
-}
 
-#about {
-    background-color: #FED18C;
-    padding: 50px
-}
-
-#social {
-    Background-color: #D6EFFF;
-}
-
-#charity {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.xmple.com/wallpaper/white-polka-dots-hexagon-orange-3840x2160-c2-ffffff-ff7f50-l2-176-308-a-20-f-4.svg');
-
-}
