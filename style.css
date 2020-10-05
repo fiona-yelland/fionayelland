@@ -16,6 +16,21 @@ html,body
   z-index: 1;
 }
 
+.smart-scroll{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled-down{
+   transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+   transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+
 #hero {
   background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://images-na.ssl-images-amazon.com/images/I/71UWUPeK2uL._AC_SL1500_.jpg');
 }
