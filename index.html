@@ -8,7 +8,6 @@
     </head>
 
     <body>
-        <header>
                 <div id="navbar">
                   <ul>
                     <li><a href="#hero">Home</a></li>
@@ -18,7 +17,19 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div> 
-        </header>
+    
+            <script>
+                var prevScrollpos = window.pageYOffset;
+                window.onscroll = function() {
+                var currentScrollPos = window.pageYOffset;
+                  if (prevScrollpos > currentScrollPos) {
+                    document.getElementById("navbar").style.top = "0";
+                  } else {
+                    document.getElementById("navbar").style.top = "-50px";
+                  }
+                  prevScrollpos = currentScrollPos;
+                }
+                </script>
 
         <main>
             <section id="hero">
