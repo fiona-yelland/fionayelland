@@ -55,7 +55,7 @@ ul {
 .flex-child {
     flex: 1;
     background-color:#fe664fb6;
-    width: 45%;
+    width: 40%;
 }  
 
 .flex-child:first-child {
