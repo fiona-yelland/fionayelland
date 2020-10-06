@@ -20,17 +20,21 @@
         <main>
             <section id="hero">
                 <div class="section-inner">
-                    <img id="example" onclick="swapImage('example', 'Profile.jpg', 'Fiona-thegem-person.jpg')" src="Profile.jpg" class="profile-img">
-                    
+                    <img id="example" onclick="swapImage('example', 'Profile.jpg', 'Fiona-thegem-person.jpg', 'grad.jpg')" src="Profile.jpg" class="profile-img">
+
 
                     <script type="text/javascript">
-                        function swapImage(id,primary,secondary) {
+                        function swapImage(id,primary,secondary, tertiary) {
                           src=document.getElementById(id).src;
                           if (src.match(primary)) {
                             document.getElementById(id).src=secondary;
-                          } else {
+                          }
+                        else {
                             document.getElementById(id).src=primary;
                           }
+                          if (src.match(secondary)){
+                            document.getElementById(id).src=tertiary
+                          } 
                         }
                       </script>
 
