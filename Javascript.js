@@ -1,4 +1,3 @@
-
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -9,3 +8,19 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+
+<script>
+function changeImage()
+{
+element=document.getElementById('example')
+if (element.src.match("out"))
+  {
+  element.src="Fiona-thegem-person.jpg"; 
+  }
+else
+  {
+  element.src="Fiona-thegem-person.jpg";
+  }
+}
+</script>

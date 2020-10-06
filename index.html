@@ -4,7 +4,6 @@
     <head>
         <title>Fiona Claire Yelland</title>
         <link rel="stylesheet" href="style.css">
-        <script src="javascript.js"></script>
     </head>
 
     <body>
@@ -21,7 +20,20 @@
         <main>
             <section id="hero">
                 <div class="section-inner">
-                    <img src="Profile.jpg" class="profile-img">
+                    <img id="example" onclick="swapImage('example', 'Profile.jpg', 'Fiona-thegem-person.jpg')" src="Profile.jpg" class="profile-img">
+                    
+
+                    <script type="text/javascript">
+                        function swapImage(id,primary,secondary) {
+                          src=document.getElementById(id).src;
+                          if (src.match(primary)) {
+                            document.getElementById(id).src=secondary;
+                          } else {
+                            document.getElementById(id).src=primary;
+                          }
+                        }
+                      </script>
+
                     <h1>Hi, I'm Fiona</h1>
                 </div>
             </section>
