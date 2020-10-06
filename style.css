@@ -43,7 +43,8 @@ html,body
 
 #about {
   background-color: #FED18C;
-  padding: 50px
+  padding: 50px;
+  overflow: hidden;
 }
 
 #social {
@@ -52,7 +53,7 @@ html,body
 
 #charity {
   background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.xmple.com/wallpaper/white-polka-dots-hexagon-orange-3840x2160-c2-ffffff-ff7f50-l2-176-308-a-20-f-4.svg');
-
+  overflow: hidden;
 }
 
 
@@ -75,12 +76,6 @@ body {
     display: flex;
   }
   
-  /* Create two equal columns that sits next to each other */
-  .column {
-    flex: 50%;
-    padding: 30px;  
-    column-count: 1;
-  }
 
 ul {
     list-style-type: none;
@@ -220,6 +215,7 @@ ul.no-bullets {
     float: left;
     width: 50%;
     padding: 10px;
+    overflow: auto;
   }
 
  
@@ -259,6 +255,7 @@ flip-card {
   @media screen and (max-width: 900px) {
     .column {
       width: 50%;
+      height: 50%;
     }
   }
   
@@ -266,6 +263,7 @@ flip-card {
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
+      height: 100%;
     }
   }
 
